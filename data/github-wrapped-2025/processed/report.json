@@ -1,0 +1,3425 @@
+{
+  "summary": {
+    "user": {
+      "login": "acking-you",
+      "name": "LB7666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73544345?v=4",
+      "followers": 167,
+      "following": 71
+    },
+    "year": 2025,
+    "totals": {
+      "totalContributions": 309,
+      "commits": 254,
+      "prs": 17,
+      "issues": 12,
+      "repos": 23
+    },
+    "busiestDay": {
+      "date": "2025-09-07",
+      "count": 38
+    },
+    "longestStreak": {
+      "count": 10,
+      "start": "2025-12-20",
+      "end": "2025-12-29"
+    },
+    "calendar": {
+      "weeks": [
+        {
+          "contributionDays": [
+            {
+              "date": "2025-01-01",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-01-02",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-01-03",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-01-04",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-01-05",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-01-06",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-01-07",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-01-08",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-01-09",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-01-10",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-01-11",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-01-12",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-01-13",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-01-14",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-01-15",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-01-16",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-01-17",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-01-18",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-01-19",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-01-20",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-01-21",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-01-22",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-01-23",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-01-24",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-01-25",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-01-26",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-01-27",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-01-28",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-01-29",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-01-30",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-01-31",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-02-01",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-02-02",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-02-03",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-02-04",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-02-05",
+              "contributionCount": 3,
+              "weekday": 3
+            },
+            {
+              "date": "2025-02-06",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-02-07",
+              "contributionCount": 1,
+              "weekday": 5
+            },
+            {
+              "date": "2025-02-08",
+              "contributionCount": 1,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-02-09",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-02-10",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-02-11",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-02-12",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-02-13",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-02-14",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-02-15",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-02-16",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-02-17",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-02-18",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-02-19",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-02-20",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-02-21",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-02-22",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-02-23",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-02-24",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-02-25",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-02-26",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-02-27",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-02-28",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-03-01",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-03-02",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-03-03",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-03-04",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-03-05",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-03-06",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-03-07",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-03-08",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-03-09",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-03-10",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-03-11",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-03-12",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-03-13",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-03-14",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-03-15",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-03-16",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-03-17",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-03-18",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-03-19",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-03-20",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-03-21",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-03-22",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-03-23",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-03-24",
+              "contributionCount": 1,
+              "weekday": 1
+            },
+            {
+              "date": "2025-03-25",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-03-26",
+              "contributionCount": 2,
+              "weekday": 3
+            },
+            {
+              "date": "2025-03-27",
+              "contributionCount": 2,
+              "weekday": 4
+            },
+            {
+              "date": "2025-03-28",
+              "contributionCount": 5,
+              "weekday": 5
+            },
+            {
+              "date": "2025-03-29",
+              "contributionCount": 4,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-03-30",
+              "contributionCount": 7,
+              "weekday": 0
+            },
+            {
+              "date": "2025-03-31",
+              "contributionCount": 5,
+              "weekday": 1
+            },
+            {
+              "date": "2025-04-01",
+              "contributionCount": 1,
+              "weekday": 2
+            },
+            {
+              "date": "2025-04-02",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-04-03",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-04-04",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-04-05",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-04-06",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-04-07",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-04-08",
+              "contributionCount": 2,
+              "weekday": 2
+            },
+            {
+              "date": "2025-04-09",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-04-10",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-04-11",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-04-12",
+              "contributionCount": 1,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-04-13",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-04-14",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-04-15",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-04-16",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-04-17",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-04-18",
+              "contributionCount": 1,
+              "weekday": 5
+            },
+            {
+              "date": "2025-04-19",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-04-20",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-04-21",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-04-22",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-04-23",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-04-24",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-04-25",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-04-26",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-04-27",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-04-28",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-04-29",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-04-30",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-05-01",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-05-02",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-05-03",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-05-04",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-05-05",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-05-06",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-05-07",
+              "contributionCount": 1,
+              "weekday": 3
+            },
+            {
+              "date": "2025-05-08",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-05-09",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-05-10",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-05-11",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-05-12",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-05-13",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-05-14",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-05-15",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-05-16",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-05-17",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-05-18",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-05-19",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-05-20",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-05-21",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-05-22",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-05-23",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-05-24",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-05-25",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-05-26",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-05-27",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-05-28",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-05-29",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-05-30",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-05-31",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-06-01",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-06-02",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-06-03",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-06-04",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-06-05",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-06-06",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-06-07",
+              "contributionCount": 1,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-06-08",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-06-09",
+              "contributionCount": 1,
+              "weekday": 1
+            },
+            {
+              "date": "2025-06-10",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-06-11",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-06-12",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-06-13",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-06-14",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-06-15",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-06-16",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-06-17",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-06-18",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-06-19",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-06-20",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-06-21",
+              "contributionCount": 2,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-06-22",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-06-23",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-06-24",
+              "contributionCount": 1,
+              "weekday": 2
+            },
+            {
+              "date": "2025-06-25",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-06-26",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-06-27",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-06-28",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-06-29",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-06-30",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-07-01",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-07-02",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-07-03",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-07-04",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-07-05",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-07-06",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-07-07",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-07-08",
+              "contributionCount": 5,
+              "weekday": 2
+            },
+            {
+              "date": "2025-07-09",
+              "contributionCount": 2,
+              "weekday": 3
+            },
+            {
+              "date": "2025-07-10",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-07-11",
+              "contributionCount": 1,
+              "weekday": 5
+            },
+            {
+              "date": "2025-07-12",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-07-13",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-07-14",
+              "contributionCount": 1,
+              "weekday": 1
+            },
+            {
+              "date": "2025-07-15",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-07-16",
+              "contributionCount": 3,
+              "weekday": 3
+            },
+            {
+              "date": "2025-07-17",
+              "contributionCount": 3,
+              "weekday": 4
+            },
+            {
+              "date": "2025-07-18",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-07-19",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-07-20",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-07-21",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-07-22",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-07-23",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-07-24",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-07-25",
+              "contributionCount": 8,
+              "weekday": 5
+            },
+            {
+              "date": "2025-07-26",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-07-27",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-07-28",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-07-29",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-07-30",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-07-31",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-08-01",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-08-02",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-08-03",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-08-04",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-08-05",
+              "contributionCount": 1,
+              "weekday": 2
+            },
+            {
+              "date": "2025-08-06",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-08-07",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-08-08",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-08-09",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-08-10",
+              "contributionCount": 3,
+              "weekday": 0
+            },
+            {
+              "date": "2025-08-11",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-08-12",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-08-13",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-08-14",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-08-15",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-08-16",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-08-17",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-08-18",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-08-19",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-08-20",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-08-21",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-08-22",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-08-23",
+              "contributionCount": 5,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-08-24",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-08-25",
+              "contributionCount": 2,
+              "weekday": 1
+            },
+            {
+              "date": "2025-08-26",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-08-27",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-08-28",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-08-29",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-08-30",
+              "contributionCount": 2,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-08-31",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-09-01",
+              "contributionCount": 5,
+              "weekday": 1
+            },
+            {
+              "date": "2025-09-02",
+              "contributionCount": 8,
+              "weekday": 2
+            },
+            {
+              "date": "2025-09-03",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-09-04",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-09-05",
+              "contributionCount": 1,
+              "weekday": 5
+            },
+            {
+              "date": "2025-09-06",
+              "contributionCount": 10,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-09-07",
+              "contributionCount": 38,
+              "weekday": 0
+            },
+            {
+              "date": "2025-09-08",
+              "contributionCount": 1,
+              "weekday": 1
+            },
+            {
+              "date": "2025-09-09",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-09-10",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-09-11",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-09-12",
+              "contributionCount": 3,
+              "weekday": 5
+            },
+            {
+              "date": "2025-09-13",
+              "contributionCount": 2,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-09-14",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-09-15",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-09-16",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-09-17",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-09-18",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-09-19",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-09-20",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-09-21",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-09-22",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-09-23",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-09-24",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-09-25",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-09-26",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-09-27",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-09-28",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-09-29",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-09-30",
+              "contributionCount": 2,
+              "weekday": 2
+            },
+            {
+              "date": "2025-10-01",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-10-02",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-10-03",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-10-04",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-10-05",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-10-06",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-10-07",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-10-08",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-10-09",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-10-10",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-10-11",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-10-12",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-10-13",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-10-14",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-10-15",
+              "contributionCount": 4,
+              "weekday": 3
+            },
+            {
+              "date": "2025-10-16",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-10-17",
+              "contributionCount": 2,
+              "weekday": 5
+            },
+            {
+              "date": "2025-10-18",
+              "contributionCount": 2,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-10-19",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-10-20",
+              "contributionCount": 2,
+              "weekday": 1
+            },
+            {
+              "date": "2025-10-21",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-10-22",
+              "contributionCount": 1,
+              "weekday": 3
+            },
+            {
+              "date": "2025-10-23",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-10-24",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-10-25",
+              "contributionCount": 2,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-10-26",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-10-27",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-10-28",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-10-29",
+              "contributionCount": 4,
+              "weekday": 3
+            },
+            {
+              "date": "2025-10-30",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-10-31",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-11-01",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-11-02",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-11-03",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-11-04",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-11-05",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-11-06",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-11-07",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-11-08",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-11-09",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-11-10",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-11-11",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-11-12",
+              "contributionCount": 3,
+              "weekday": 3
+            },
+            {
+              "date": "2025-11-13",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-11-14",
+              "contributionCount": 2,
+              "weekday": 5
+            },
+            {
+              "date": "2025-11-15",
+              "contributionCount": 5,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-11-16",
+              "contributionCount": 17,
+              "weekday": 0
+            },
+            {
+              "date": "2025-11-17",
+              "contributionCount": 16,
+              "weekday": 1
+            },
+            {
+              "date": "2025-11-18",
+              "contributionCount": 2,
+              "weekday": 2
+            },
+            {
+              "date": "2025-11-19",
+              "contributionCount": 3,
+              "weekday": 3
+            },
+            {
+              "date": "2025-11-20",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-11-21",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-11-22",
+              "contributionCount": 10,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-11-23",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-11-24",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-11-25",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-11-26",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-11-27",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-11-28",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-11-29",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-11-30",
+              "contributionCount": 5,
+              "weekday": 0
+            },
+            {
+              "date": "2025-12-01",
+              "contributionCount": 8,
+              "weekday": 1
+            },
+            {
+              "date": "2025-12-02",
+              "contributionCount": 2,
+              "weekday": 2
+            },
+            {
+              "date": "2025-12-03",
+              "contributionCount": 5,
+              "weekday": 3
+            },
+            {
+              "date": "2025-12-04",
+              "contributionCount": 1,
+              "weekday": 4
+            },
+            {
+              "date": "2025-12-05",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-12-06",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-12-07",
+              "contributionCount": 1,
+              "weekday": 0
+            },
+            {
+              "date": "2025-12-08",
+              "contributionCount": 0,
+              "weekday": 1
+            },
+            {
+              "date": "2025-12-09",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-12-10",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-12-11",
+              "contributionCount": 2,
+              "weekday": 4
+            },
+            {
+              "date": "2025-12-12",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-12-13",
+              "contributionCount": 0,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-12-14",
+              "contributionCount": 0,
+              "weekday": 0
+            },
+            {
+              "date": "2025-12-15",
+              "contributionCount": 3,
+              "weekday": 1
+            },
+            {
+              "date": "2025-12-16",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-12-17",
+              "contributionCount": 0,
+              "weekday": 3
+            },
+            {
+              "date": "2025-12-18",
+              "contributionCount": 0,
+              "weekday": 4
+            },
+            {
+              "date": "2025-12-19",
+              "contributionCount": 0,
+              "weekday": 5
+            },
+            {
+              "date": "2025-12-20",
+              "contributionCount": 1,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-12-21",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-12-22",
+              "contributionCount": 2,
+              "weekday": 1
+            },
+            {
+              "date": "2025-12-23",
+              "contributionCount": 1,
+              "weekday": 2
+            },
+            {
+              "date": "2025-12-24",
+              "contributionCount": 3,
+              "weekday": 3
+            },
+            {
+              "date": "2025-12-25",
+              "contributionCount": 7,
+              "weekday": 4
+            },
+            {
+              "date": "2025-12-26",
+              "contributionCount": 4,
+              "weekday": 5
+            },
+            {
+              "date": "2025-12-27",
+              "contributionCount": 10,
+              "weekday": 6
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "date": "2025-12-28",
+              "contributionCount": 2,
+              "weekday": 0
+            },
+            {
+              "date": "2025-12-29",
+              "contributionCount": 5,
+              "weekday": 1
+            },
+            {
+              "date": "2025-12-30",
+              "contributionCount": 0,
+              "weekday": 2
+            },
+            {
+              "date": "2025-12-31",
+              "contributionCount": 1,
+              "weekday": 3
+            }
+          ]
+        }
+      ]
+    },
+    "weekdayCounts": [
+      88,
+      52,
+      25,
+      35,
+      23,
+      28,
+      58
+    ],
+    "monthlyCounts": [
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 10
+      },
+      {
+        "month": "2025-03",
+        "count": 26
+      },
+      {
+        "month": "2025-04",
+        "count": 6
+      },
+      {
+        "month": "2025-05",
+        "count": 3
+      },
+      {
+        "month": "2025-06",
+        "count": 9
+      },
+      {
+        "month": "2025-07",
+        "count": 26
+      },
+      {
+        "month": "2025-08",
+        "count": 18
+      },
+      {
+        "month": "2025-09",
+        "count": 70
+      },
+      {
+        "month": "2025-10",
+        "count": 17
+      },
+      {
+        "month": "2025-11",
+        "count": 64
+      },
+      {
+        "month": "2025-12",
+        "count": 60
+      }
+    ],
+    "topCommitRepos": [
+      {
+        "nameWithOwner": "acking-you/pb-mapper",
+        "count": 76
+      },
+      {
+        "nameWithOwner": "acking-you/static_flow",
+        "count": 57
+      },
+      {
+        "nameWithOwner": "acking-you/myclaude-skills",
+        "count": 31
+      },
+      {
+        "nameWithOwner": "acking-you/proxy-everything",
+        "count": 17
+      },
+      {
+        "nameWithOwner": "acking-you/acking-you.github.io",
+        "count": 12
+      },
+      {
+        "nameWithOwner": "acking-you/BetterPot",
+        "count": 10
+      },
+      {
+        "nameWithOwner": "ClickHouse/ClickHouse",
+        "count": 9
+      },
+      {
+        "nameWithOwner": "apache/datafusion",
+        "count": 6
+      }
+    ],
+    "topPrRepos": [
+      {
+        "nameWithOwner": "apache/datafusion",
+        "count": 6
+      },
+      {
+        "nameWithOwner": "comix-kernel/comix",
+        "count": 2
+      },
+      {
+        "nameWithOwner": "moonbit-community/benchmark-fft",
+        "count": 2
+      },
+      {
+        "nameWithOwner": "ClickHouse/ClickHouse",
+        "count": 2
+      },
+      {
+        "nameWithOwner": "8sileus/zedio",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "mg-chao/snow-shot",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "pot-app/pot-desktop",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "ClickHouse/ClickBench",
+        "count": 1
+      }
+    ],
+    "topIssueRepos": [
+      {
+        "nameWithOwner": "stephenberry/glaze",
+        "count": 3
+      },
+      {
+        "nameWithOwner": "apache/datafusion",
+        "count": 2
+      },
+      {
+        "nameWithOwner": "xiaoniaoyouhuajiang/sidebundle",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "DioxusLabs/dioxus",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "8sileus/zedio",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "mg-chao/snow-shot",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "ClickHouse/ClickHouse",
+        "count": 1
+      },
+      {
+        "nameWithOwner": "hs-CN/msedge-tts",
+        "count": 1
+      }
+    ],
+    "openSource": {
+      "contributedReposTotal": 12,
+      "externalReposTotal": 12,
+      "externalReposSample": [
+        {
+          "nameWithOwner": "ClickHouse/ClickHouse",
+          "stars": 44950,
+          "language": "C++"
+        },
+        {
+          "nameWithOwner": "DioxusLabs/dioxus",
+          "stars": 32880,
+          "language": "Rust"
+        },
+        {
+          "nameWithOwner": "pot-app/pot-desktop",
+          "stars": 16499,
+          "language": "JavaScript"
+        },
+        {
+          "nameWithOwner": "apache/datafusion",
+          "stars": 8216,
+          "language": "Rust"
+        },
+        {
+          "nameWithOwner": "mg-chao/snow-shot",
+          "stars": 3063,
+          "language": "TypeScript"
+        },
+        {
+          "nameWithOwner": "stephenberry/glaze",
+          "stars": 2299,
+          "language": "C++"
+        }
+      ]
+    },
+    "prs2025": {
+      "total": 11,
+      "additions": 1626,
+      "deletions": 288,
+      "externalTotal": 11,
+      "highlights": [
+        {
+          "title": "Apply pre-selection and computation skipping to short-circuit optimization",
+          "url": "https://github.com/apache/datafusion/pull/15694",
+          "repo": "apache/datafusion",
+          "additions": 458,
+          "deletions": 68,
+          "createdAt": "2025-04-12T15:13:33Z",
+          "mergedAt": "2025-04-17T17:06:13Z"
+        },
+        {
+          "title": "Add short circuit evaluation for `AND` and `OR`",
+          "url": "https://github.com/apache/datafusion/pull/15462",
+          "repo": "apache/datafusion",
+          "additions": 472,
+          "deletions": 0,
+          "createdAt": "2025-03-27T19:00:03Z",
+          "mergedAt": "2025-04-08T10:45:41Z"
+        },
+        {
+          "title": "add benchmark code for `Reuse rows in row cursor stream`",
+          "url": "https://github.com/apache/datafusion/pull/15913",
+          "repo": "apache/datafusion",
+          "additions": 209,
+          "deletions": 1,
+          "createdAt": "2025-05-01T14:47:12Z",
+          "mergedAt": "2025-05-06T20:28:04Z"
+        },
+        {
+          "title": "[datafusion] Remove unnecessary type conversions",
+          "url": "https://github.com/ClickHouse/ClickBench/pull/340",
+          "repo": "ClickHouse/ClickBench",
+          "additions": 99,
+          "deletions": 109,
+          "createdAt": "2025-03-28T17:19:01Z",
+          "mergedAt": "2025-03-29T16:24:53Z"
+        },
+        {
+          "title": "fix error result in execute&pre_selection",
+          "url": "https://github.com/apache/datafusion/pull/16930",
+          "repo": "apache/datafusion",
+          "additions": 119,
+          "deletions": 46,
+          "createdAt": "2025-07-27T09:10:45Z",
+          "mergedAt": "2025-08-04T19:44:09Z"
+        }
+      ]
+    },
+    "stars": {
+      "totalAllTime": 815,
+      "total2025": 190,
+      "languages": [
+        {
+          "name": "Rust",
+          "count": 90
+        },
+        {
+          "name": "TypeScript",
+          "count": 25
+        },
+        {
+          "name": "C++",
+          "count": 22
+        },
+        {
+          "name": "Python",
+          "count": 17
+        },
+        {
+          "name": "Go",
+          "count": 7
+        },
+        {
+          "name": "Jupyter Notebook",
+          "count": 5
+        },
+        {
+          "name": "C",
+          "count": 4
+        },
+        {
+          "name": "C#",
+          "count": 3
+        }
+      ],
+      "topics": [
+        {
+          "name": "rust",
+          "count": 45
+        },
+        {
+          "name": "ai",
+          "count": 21
+        },
+        {
+          "name": "llm",
+          "count": 20
+        },
+        {
+          "name": "openai",
+          "count": 11
+        },
+        {
+          "name": "mcp",
+          "count": 10
+        },
+        {
+          "name": "python",
+          "count": 9
+        },
+        {
+          "name": "rag",
+          "count": 8
+        },
+        {
+          "name": "cpp",
+          "count": 8
+        },
+        {
+          "name": "database",
+          "count": 8
+        },
+        {
+          "name": "claude",
+          "count": 7
+        },
+        {
+          "name": "deepseek",
+          "count": 7
+        },
+        {
+          "name": "agent",
+          "count": 7
+        },
+        {
+          "name": "claude-code",
+          "count": 6
+        },
+        {
+          "name": "generative-ai",
+          "count": 6
+        },
+        {
+          "name": "windows",
+          "count": 6
+        },
+        {
+          "name": "vector-search",
+          "count": 5
+        },
+        {
+          "name": "hacktoberfest",
+          "count": 5
+        },
+        {
+          "name": "tauri",
+          "count": 5
+        },
+        {
+          "name": "llms",
+          "count": 5
+        },
+        {
+          "name": "wasm",
+          "count": 5
+        }
+      ],
+      "topStarred2025": [
+        {
+          "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
+          "stars": 160985,
+          "language": "Batchfile",
+          "starredAt": "2025-11-22T15:59:00Z"
+        },
+        {
+          "nameWithOwner": "supabase/supabase",
+          "stars": 95462,
+          "language": "TypeScript",
+          "starredAt": "2025-04-18T18:58:11Z"
+        },
+        {
+          "nameWithOwner": "openai/whisper",
+          "stars": 92577,
+          "language": "Python",
+          "starredAt": "2025-01-22T17:45:03Z"
+        },
+        {
+          "nameWithOwner": "immich-app/immich",
+          "stars": 87915,
+          "language": "TypeScript",
+          "starredAt": "2025-01-20T05:13:33Z"
+        },
+        {
+          "nameWithOwner": "rasbt/LLMs-from-scratch",
+          "stars": 82083,
+          "language": "Jupyter Notebook",
+          "starredAt": "2025-07-17T07:12:07Z"
+        },
+        {
+          "nameWithOwner": "punkpeye/awesome-mcp-servers",
+          "stars": 77917,
+          "language": null,
+          "starredAt": "2025-03-31T02:36:37Z"
+        },
+        {
+          "nameWithOwner": "astral-sh/uv",
+          "stars": 76036,
+          "language": "Rust",
+          "starredAt": "2025-02-15T17:24:25Z"
+        },
+        {
+          "nameWithOwner": "BurntSushi/ripgrep",
+          "stars": 58497,
+          "language": "Rust",
+          "starredAt": "2025-02-14T06:24:47Z"
+        }
+      ],
+      "stars2025Sample": [
+        {
+          "nameWithOwner": "Anush008/fastembed-rs",
+          "stars": 709,
+          "language": "Rust",
+          "starredAt": "2025-12-26T03:31:34Z",
+          "topics": [
+            "embeddings",
+            "rag",
+            "retrieval",
+            "retrieval-augmented-generation",
+            "vector-search"
+          ]
+        },
+        {
+          "nameWithOwner": "slopus/happy",
+          "stars": 5923,
+          "language": "TypeScript",
+          "starredAt": "2025-12-25T18:52:35Z",
+          "topics": [
+            "claude-code",
+            "claude-desktop",
+            "codex",
+            "codex-cli",
+            "hacktoberfest"
+          ]
+        },
+        {
+          "nameWithOwner": "zhaochenyang20/Awesome-ML-SYS-Tutorial",
+          "stars": 4850,
+          "language": "Python",
+          "starredAt": "2025-12-25T06:47:27Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "timvw/qv",
+          "stars": 341,
+          "language": "Rust",
+          "starredAt": "2025-12-25T04:36:02Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "ai-dynamo/dynamo",
+          "stars": 5703,
+          "language": "Rust",
+          "starredAt": "2025-12-24T18:54:55Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "letta-ai/letta-code",
+          "stars": 772,
+          "language": "TypeScript",
+          "starredAt": "2025-12-17T17:34:20Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "winfunc/opcode",
+          "stars": 19597,
+          "language": "TypeScript",
+          "starredAt": "2025-12-17T05:54:57Z",
+          "topics": [
+            "anthropic",
+            "anthropic-claude",
+            "claude",
+            "claude-4",
+            "claude-4-sonnet"
+          ]
+        },
+        {
+          "nameWithOwner": "katanemo/plano",
+          "stars": 4719,
+          "language": "Rust",
+          "starredAt": "2025-12-12T04:58:42Z",
+          "topics": [
+            "gateway",
+            "generative-ai",
+            "llm-inference",
+            "llms",
+            "prompt"
+          ]
+        },
+        {
+          "nameWithOwner": "SaladDay/cc-switch-cli",
+          "stars": 272,
+          "language": "Rust",
+          "starredAt": "2025-12-12T03:36:14Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "hexagonal-sun/trale",
+          "stars": 112,
+          "language": "Rust",
+          "starredAt": "2025-12-11T07:38:29Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "sst/opencode",
+          "stars": 44840,
+          "language": "TypeScript",
+          "starredAt": "2025-12-10T07:42:23Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "athasdev/athas",
+          "stars": 1848,
+          "language": "TypeScript",
+          "starredAt": "2025-12-09T14:36:46Z",
+          "topics": [
+            "editor",
+            "ide",
+            "athas",
+            "code-editor",
+            "cross-platform"
+          ]
+        },
+        {
+          "nameWithOwner": "discreaminant2809/better_collect",
+          "stars": 21,
+          "language": "Rust",
+          "starredAt": "2025-12-09T03:32:06Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "mixedbread-ai/mgrep",
+          "stars": 2454,
+          "language": "TypeScript",
+          "starredAt": "2025-12-05T17:52:50Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "xiaoniaoyouhuajiang/sidebundle",
+          "stars": 36,
+          "language": "Rust",
+          "starredAt": "2025-12-03T06:23:45Z",
+          "topics": [
+            "linux",
+            "portable",
+            "relocation"
+          ]
+        },
+        {
+          "nameWithOwner": "rapidsai/cudf",
+          "stars": 9398,
+          "language": "C++",
+          "starredAt": "2025-12-02T08:35:45Z",
+          "topics": [
+            "gpu",
+            "rapids",
+            "cudf",
+            "arrow",
+            "cuda"
+          ]
+        },
+        {
+          "nameWithOwner": "tantaraio/voy",
+          "stars": 1035,
+          "language": "Rust",
+          "starredAt": "2025-12-02T06:25:52Z",
+          "topics": [
+            "k-d-tree",
+            "nearest-neighbor-search",
+            "similarity-search",
+            "vector-search",
+            "wasm"
+          ]
+        },
+        {
+          "nameWithOwner": "rust-minidump/rust-minidump",
+          "stars": 482,
+          "language": "Rust",
+          "starredAt": "2025-12-01T02:10:05Z",
+          "topics": [
+            "rust",
+            "minidump",
+            "crash-reporting",
+            "crash-reports"
+          ]
+        },
+        {
+          "nameWithOwner": "bluecatengineering/fast_radix_trie",
+          "stars": 22,
+          "language": "Rust",
+          "starredAt": "2025-11-30T16:43:44Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "charmbracelet/crush",
+          "stars": 16558,
+          "language": "Go",
+          "starredAt": "2025-11-27T18:14:38Z",
+          "topics": [
+            "agentic-ai",
+            "ai",
+            "llms",
+            "ravishing"
+          ]
+        },
+        {
+          "nameWithOwner": "second-state/echokit_server",
+          "stars": 504,
+          "language": "Rust",
+          "starredAt": "2025-11-24T17:23:47Z",
+          "topics": [
+            "agentic-ai",
+            "ai",
+            "asr",
+            "esp32",
+            "llm"
+          ]
+        },
+        {
+          "nameWithOwner": "apache/sedona-db",
+          "stars": 371,
+          "language": "Rust",
+          "starredAt": "2025-11-23T13:11:49Z",
+          "topics": [
+            "c",
+            "database",
+            "geospatial",
+            "hacktoberfest",
+            "python"
+          ]
+        },
+        {
+          "nameWithOwner": "wezterm/wezterm",
+          "stars": 23108,
+          "language": "Rust",
+          "starredAt": "2025-11-23T08:33:08Z",
+          "topics": [
+            "terminal-emulators",
+            "rust",
+            "terminal",
+            "terminal-emulator",
+            "serial-port"
+          ]
+        },
+        {
+          "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
+          "stars": 160985,
+          "language": "Batchfile",
+          "starredAt": "2025-11-22T15:59:00Z",
+          "topics": [
+            "hwid",
+            "kms38",
+            "kms",
+            "activator",
+            "massgrave"
+          ]
+        },
+        {
+          "nameWithOwner": "hexagonal-sun/moss-kernel",
+          "stars": 1646,
+          "language": "Rust",
+          "starredAt": "2025-11-21T08:46:24Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "Azure/kimojio-rs",
+          "stars": 157,
+          "language": "Rust",
+          "starredAt": "2025-11-20T07:04:14Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "microsoft/proxy",
+          "stars": 3046,
+          "language": "C++",
+          "starredAt": "2025-11-18T18:16:34Z",
+          "topics": [
+            "cpp",
+            "cpp20",
+            "header-only",
+            "library",
+            "cross-platform"
+          ]
+        },
+        {
+          "nameWithOwner": "cli/cli",
+          "stars": 41841,
+          "language": "Go",
+          "starredAt": "2025-11-18T12:19:16Z",
+          "topics": [
+            "github-api-v4",
+            "cli",
+            "git",
+            "golang"
+          ]
+        },
+        {
+          "nameWithOwner": "pulldown-cmark/pulldown-cmark",
+          "stars": 2426,
+          "language": "Rust",
+          "starredAt": "2025-11-14T19:19:29Z",
+          "topics": [
+            "commonmark",
+            "markdown",
+            "parser",
+            "rust"
+          ]
+        },
+        {
+          "nameWithOwner": "cexll/myclaude",
+          "stars": 1534,
+          "language": "Go",
+          "starredAt": "2025-11-14T07:21:37Z",
+          "topics": []
+        },
+        {
+          "nameWithOwner": "stateright/stateright",
+          "stars": 1752,
+          "language": "Rust",
+          "starredAt": "2025-11-13T14:27:10Z",
+          "topics": [
+            "model-checker",
+            "distributed-systems",
+            "actor-model",
+            "paxos"
+          ]
+        },
+        {
+          "nameWithOwner": "withastro/astro",
+          "stars": 55208,
+          "language": "TypeScript",
+          "starredAt": "2025-11-12T08:23:36Z",
+          "topics": [
+            "static-site-generator",
+            "blog",
+            "islands",
+            "components",
+            "node"
+          ]
+        },
+        {
+          "nameWithOwner": "metrics-rs/metrics",
+          "stars": 1396,
+          "language": "Rust",
+          "starredAt": "2025-11-12T06:40:06Z",
+          "topics": [
+            "rust-lang",
+            "metrics",
+            "telemetry"
+          ]
+        },
+        {
+          "nameWithOwner": "alfg/mp4-rust",
+          "stars": 341,
+          "language": "Rust",
+          "starredAt": "2025-11-12T06:31:41Z",
+          "topics": [
+            "rust",
+            "mp4",
+            "isobmff",
+            "reader",
+            "qt"
+          ]
+        },
+        {
+          "nameWithOwner": "cocoindex-io/cocoindex",
+          "stars": 5534,
+          "language": "Rust",
+          "starredAt": "2025-11-11T10:14:53Z",
+          "topics": [
+            "ai",
+            "change-data-capture",
+            "data",
+            "data-indexing",
+            "etl"
+          ]
+        },
+        {
+          "nameWithOwner": "j178/prek",
+          "stars": 3025,
+          "language": "Rust",
+          "starredAt": "2025-11-11T06:40:59Z",
+          "topics": [
+            "git",
+            "pre-commit",
+            "git-hooks"
+          ]
+        },
+        {
+          "nameWithOwner": "jazzyalex/agent-sessions",
+          "stars": 158,
+          "language": "Swift",
+          "starredAt": "2025-11-11T06:25:43Z",
+          "topics": [
+            "agentic-workflow",
+            "agents",
+            "ai",
+            "antrophic",
+            "claude-code"
+          ]
+        },
+        {
+          "nameWithOwner": "jellydn/zed-101-setup",
+          "stars": 1115,
+          "language": "TypeScript",
+          "starredAt": "2025-11-11T06:24:42Z",
+          "topics": [
+            "guide",
+            "zed",
+            "hacktoberfest"
+          ]
+        },
+        {
+          "nameWithOwner": "apache/opendal-oli",
+          "stars": 16,
+          "language": "Rust",
+          "starredAt": "2025-11-10T11:19:19Z",
+          "topics": [
+            "cli",
+            "fs",
+            "rust",
+            "s3",
+            "storage"
+          ]
+        },
+        {
+          "nameWithOwner": "xtensor-stack/xsimd",
+          "stars": 2576,
+          "language": "C++",
+          "starredAt": "2025-11-10T10:49:01Z",
+          "topics": [
+            "simd-intrinsics",
+            "vectorization",
+            "simd",
+            "cpp",
+            "avx"
+          ]
+        },
+        {
+          "nameWithOwner": "rathole-org/rathole",
+          "stars": 12548,
+          "language": "Rust",
+          "starredAt": "2025-11-10T10:45:18Z",
+          "topics": [
+            "nat",
+            "tunnel",
+            "rust",
+            "network",
+            "firewall"
+          ]
+        },
+        {
+          "nameWithOwner": "google/magika",
+          "stars": 9996,
+          "language": "Python",
+          "starredAt": "2025-11-10T10:43:27Z",
+          "topics": [
+            "deep-learning",
+            "filetype",
+            "keras-classification-models",
+            "keras-models",
+            "mime-types"
+          ]
+        },
+        {
+          "nameWithOwner": "sopaco/deepwiki-rs",
+          "stars": 600,
+          "language": "Rust",
+          "starredAt": "2025-11-10T02:43:31Z",
+          "topics": [
+            "deepwiki",
+            "llm",
+            "rust",
+            "claude",
+            "deepseek"
+          ]
+        },
+        {
+          "nameWithOwner": "OpenImagingLab/FlashVSR",
+          "stars": 1173,
+          "language": "Python",
+          "starredAt": "2025-10-30T18:29:46Z",
+          "topics": [
+            "diffusion-models",
+            "video-super-resolution"
+          ]
+        },
+        {
+          "nameWithOwner": "k4yt3x/video2x",
+          "stars": 16561,
+          "language": "C++",
+          "starredAt": "2025-10-29T16:16:24Z",
+          "topics": [
+            "machine-learning",
+            "anime4k",
+            "vulkan",
+            "realesrgan",
+            "neural-networks"
+          ]
+        },
+        {
+          "nameWithOwner": "rust-embedded/heapless",
+          "stars": 1880,
+          "language": "Rust",
+          "starredAt": "2025-10-27T13:24:43Z",
+          "topics": [
+            "rust",
+            "no-std",
+            "data-structures"
+          ]
+        },
+        {
+          "nameWithOwner": "smol-rs/async-executor",
+          "stars": 422,
+          "language": "Rust",
+          "starredAt": "2025-10-23T03:40:14Z",
+          "topics": [
+            "async",
+            "rust"
+          ]
+        },
+        {
+          "nameWithOwner": "servo/servo",
+          "stars": 34842,
+          "language": "Rust",
+          "starredAt": "2025-10-22T16:26:54Z",
+          "topics": [
+            "servo",
+            "rust",
+            "browser",
+            "webengine",
+            "web"
+          ]
+        },
+        {
+          "nameWithOwner": "ultrafunkamsterdam/undetected-chromedriver",
+          "stars": 12158,
+          "language": "Python",
+          "starredAt": "2025-10-22T16:20:45Z",
+          "topics": [
+            "chromedriver",
+            "selenium",
+            "webdriver",
+            "chrome",
+            "anti-detection"
+          ]
+        },
+        {
+          "nameWithOwner": "clockworklabs/SpacetimeDB",
+          "stars": 18762,
+          "language": "Rust",
+          "starredAt": "2025-10-22T07:58:48Z",
+          "topics": [
+            "database",
+            "dataoriented",
+            "game-development",
+            "relational",
+            "relational-database"
+          ]
+        }
+      ]
+    },
+    "repos": {
+      "total": 115,
+      "ownTotal": 69,
+      "ownStarsTotal": 628,
+      "ownForksTotal": 110,
+      "createdInYear": 8,
+      "top": [
+        {
+          "name": "byte_douyin_project",
+          "stars": 322,
+          "forks": 58,
+          "language": "Go",
+          "created_at": "2022-05-14T06:59:54Z"
+        },
+        {
+          "name": "MyUtil",
+          "stars": 103,
+          "forks": 21,
+          "language": "C++",
+          "created_at": "2022-07-20T16:45:23Z"
+        },
+        {
+          "name": "ejson4cpp",
+          "stars": 41,
+          "forks": 5,
+          "language": "C++",
+          "created_at": "2022-12-18T12:27:56Z"
+        },
+        {
+          "name": "elog4cpp",
+          "stars": 38,
+          "forks": 4,
+          "language": "C++",
+          "created_at": "2022-09-05T14:40:09Z"
+        },
+        {
+          "name": "netpoll-cpp",
+          "stars": 28,
+          "forks": 1,
+          "language": "C++",
+          "created_at": "2023-04-13T14:13:09Z"
+        },
+        {
+          "name": "TraningCamp",
+          "stars": 21,
+          "forks": 3,
+          "language": "Go",
+          "created_at": "2022-05-07T11:36:27Z"
+        },
+        {
+          "name": "NoteWithCard",
+          "stars": 10,
+          "forks": 0,
+          "language": "Dart",
+          "created_at": "2023-03-10T11:49:51Z"
+        },
+        {
+          "name": "my_chat",
+          "stars": 8,
+          "forks": 2,
+          "language": "Go",
+          "created_at": "2022-09-19T11:18:46Z"
+        }
+      ]
+    },
+    "profile": {
+      "identity": "Rust 数据/系统工程师",
+      "primary_languages": [
+        "C++",
+        "Rust",
+        "JavaScript",
+        "Go",
+        "Dart"
+      ],
+      "interests": [
+        "rust",
+        "ai",
+        "llm",
+        "openai",
+        "mcp",
+        "python",
+        "rag",
+        "cpp"
+      ],
+      "pattern": "周末战士",
+      "most_active_month": "2025-09"
+    }
+  },
+  "holidays": [
+    {
+      "key": "singles_day",
+      "label": "双十一",
+      "date": "2025-11-11",
+      "count": 4,
+      "topRepo": {
+        "nameWithOwner": "cocoindex-io/cocoindex",
+        "stars": 5534,
+        "language": "Rust",
+        "starredAt": "2025-11-11T10:14:53Z"
+      },
+      "repos": [
+        {
+          "nameWithOwner": "cocoindex-io/cocoindex",
+          "stars": 5534,
+          "language": "Rust"
+        },
+        {
+          "nameWithOwner": "j178/prek",
+          "stars": 3025,
+          "language": "Rust"
+        },
+        {
+          "nameWithOwner": "jellydn/zed-101-setup",
+          "stars": 1115,
+          "language": "TypeScript"
+        }
+      ]
+    },
+    {
+      "key": "labor_day",
+      "label": "劳动节",
+      "date": "2025-05-01",
+      "count": 2,
+      "topRepo": {
+        "nameWithOwner": "skyzh/tiny-llm",
+        "stars": 3596,
+        "language": "Python",
+        "starredAt": "2025-05-01T21:35:58Z"
+      },
+      "repos": [
+        {
+          "nameWithOwner": "skyzh/tiny-llm",
+          "stars": 3596,
+          "language": "Python"
+        },
+        {
+          "nameWithOwner": "XiangpengHao/liquid-cache",
+          "stars": 356,
+          "language": "Rust"
+        }
+      ]
+    },
+    {
+      "key": "national_day",
+      "label": "国庆节",
+      "date": "2025-10-01",
+      "count": 1,
+      "topRepo": {
+        "nameWithOwner": "ghostty-org/ghostty",
+        "stars": 40403,
+        "language": "Zig",
+        "starredAt": "2025-10-01T03:20:00Z"
+      },
+      "repos": [
+        {
+          "nameWithOwner": "ghostty-org/ghostty",
+          "stars": 40403,
+          "language": "Zig"
+        }
+      ]
+    }
+  ],
+  "holidayMeta": {
+    "checkedDates": {
+      "new_year": "2025-01-01",
+      "chuxi": "2025-01-28",
+      "spring_festival": "2025-01-29",
+      "womens_day": "2025-03-08",
+      "qingming": "2025-04-04",
+      "labor_day": "2025-05-01",
+      "youth_day": "2025-05-04",
+      "childrens_day": "2025-06-01",
+      "dragon_boat": "2025-05-31",
+      "qixi": "2025-08-29",
+      "mid_autumn": "2025-10-06",
+      "national_day": "2025-10-01",
+      "programmer_day": "2025-10-24",
+      "singles_day": "2025-11-11",
+      "new_year_eve": "2025-12-31"
+    },
+    "note": "节日日期包含农历节日（春节/除夕/端午/七夕/中秋）对应的公历日期。"
+  },
+  "aiPicks": [
+    {
+      "nameWithOwner": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "stars": 5534,
+      "language": "Rust",
+      "starredAt": "2025-11-11T10:14:53Z",
+      "reasons": [
+        "与你常用语言 Rust 高度匹配",
+        "关注主题契合：ai、python、rag",
+        "Data transformation framework for AI. Ultra performant, with"
+      ]
+    },
+    {
+      "nameWithOwner": "bosun-ai/swiftide",
+      "url": "https://github.com/bosun-ai/swiftide",
+      "stars": 630,
+      "language": "Rust",
+      "starredAt": "2025-01-14T11:02:27Z",
+      "reasons": [
+        "与你常用语言 Rust 高度匹配",
+        "关注主题契合：llm、rag、ai",
+        "Fast, streaming indexing, query, and agentic LLM application"
+      ]
+    },
+    {
+      "nameWithOwner": "graniet/rllm",
+      "url": "https://github.com/graniet/rllm",
+      "stars": 138,
+      "language": "Rust",
+      "starredAt": "2025-01-13T11:00:35Z",
+      "reasons": [
+        "与你常用语言 Rust 高度匹配",
+        "关注主题契合：ai、llm、openai",
+        "Use multiple LLM backends in a single crate, simple builder-"
+      ]
+    }
+  ],
+  "starTopicsTop": [
+    {
+      "name": "rust",
+      "count": 45
+    },
+    {
+      "name": "ai",
+      "count": 21
+    },
+    {
+      "name": "llm",
+      "count": 20
+    },
+    {
+      "name": "openai",
+      "count": 11
+    },
+    {
+      "name": "mcp",
+      "count": 10
+    },
+    {
+      "name": "python",
+      "count": 9
+    },
+    {
+      "name": "rag",
+      "count": 8
+    },
+    {
+      "name": "cpp",
+      "count": 8
+    },
+    {
+      "name": "database",
+      "count": 8
+    },
+    {
+      "name": "claude",
+      "count": 7
+    },
+    {
+      "name": "deepseek",
+      "count": 7
+    },
+    {
+      "name": "agent",
+      "count": 7
+    },
+    {
+      "name": "claude-code",
+      "count": 6
+    },
+    {
+      "name": "generative-ai",
+      "count": 6
+    },
+    {
+      "name": "windows",
+      "count": 6
+    },
+    {
+      "name": "vector-search",
+      "count": 5
+    },
+    {
+      "name": "hacktoberfest",
+      "count": 5
+    },
+    {
+      "name": "tauri",
+      "count": 5
+    },
+    {
+      "name": "llms",
+      "count": 5
+    },
+    {
+      "name": "wasm",
+      "count": 5
+    },
+    {
+      "name": "linux",
+      "count": 5
+    },
+    {
+      "name": "cli",
+      "count": 5
+    },
+    {
+      "name": "semantic-search",
+      "count": 5
+    },
+    {
+      "name": "machine-learning",
+      "count": 5
+    },
+    {
+      "name": "typescript",
+      "count": 5
+    },
+    {
+      "name": "llama",
+      "count": 5
+    },
+    {
+      "name": "qwen",
+      "count": 5
+    },
+    {
+      "name": "chatbot",
+      "count": 5
+    },
+    {
+      "name": "artificial-intelligence",
+      "count": 5
+    },
+    {
+      "name": "codex",
+      "count": 4
+    }
+  ],
+  "starLanguagesTop": [
+    {
+      "name": "Rust",
+      "count": 90
+    },
+    {
+      "name": "TypeScript",
+      "count": 25
+    },
+    {
+      "name": "C++",
+      "count": 22
+    },
+    {
+      "name": "Python",
+      "count": 17
+    },
+    {
+      "name": "Go",
+      "count": 7
+    },
+    {
+      "name": "Jupyter Notebook",
+      "count": 5
+    },
+    {
+      "name": "C",
+      "count": 4
+    },
+    {
+      "name": "C#",
+      "count": 3
+    },
+    {
+      "name": "Dart",
+      "count": 3
+    },
+    {
+      "name": "Swift",
+      "count": 2
+    }
+  ]
+}

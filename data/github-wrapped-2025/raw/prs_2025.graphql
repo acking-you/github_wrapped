@@ -1,0 +1,23 @@
+query($searchQuery: String!, $endCursor: String) {
+  search(query: $searchQuery, type: ISSUE, first: 100, after: $endCursor) {
+    nodes {
+      ... on PullRequest {
+        title
+        url
+        createdAt
+        mergedAt
+        additions
+        deletions
+        repository {
+          nameWithOwner
+          owner { login }
+          isFork
+          stargazerCount
+          primaryLanguage { name }
+          repositoryTopics(first: 10) { nodes { topic { name } } }
+        }
+      }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}

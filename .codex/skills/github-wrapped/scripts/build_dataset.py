@@ -3,6 +3,7 @@ import json
 import math
 import re
 import datetime as dt
+import hashlib
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -83,6 +84,13 @@ CATEGORIES = [
         description="ClickHouse/DataFusion/SQL/OLAP/存储/索引",
     ),
     Category(
+        key="data",
+        label="数据工程",
+        emoji="🧩",
+        color="#d29922",
+        description="ETL/ELT、流式、数据管道、分析工程",
+    ),
+    Category(
         key="ai",
         label="AI/LLM",
         emoji="🧬",
@@ -90,11 +98,25 @@ CATEGORIES = [
         description="LLM、RAG、Agent、推理、OpenAI、MCP",
     ),
     Category(
+        key="cli",
+        label="命令行/终端",
+        emoji="⌨️",
+        color="#58a6ff",
+        description="CLI/TUI、终端工具、脚本与自动化",
+    ),
+    Category(
+        key="editor",
+        label="编辑器/IDE",
+        emoji="📝",
+        color="#bc8cff",
+        description="Neovim/Vim/VScode/Emacs、LSP、插件生态",
+    ),
+    Category(
         key="tooling",
-        label="工具链/效率",
+        label="开发工具链",
         emoji="🛠️",
         color="#7aa7ff",
-        description="CLI、终端、编辑器、开发效率与自动化",
+        description="构建/调试/格式化/测试、开发效率与工程化",
     ),
     Category(
         key="frontend",
@@ -109,6 +131,41 @@ CATEGORIES = [
         emoji="🛰️",
         color="#22c55e",
         description="CI/CD、DevOps、分布式、可观测性、云",
+    ),
+    Category(
+        key="observability",
+        label="可观测性",
+        emoji="📡",
+        color="#45f7c7",
+        description="Logging/Metrics/Tracing、OpenTelemetry、监控体系",
+    ),
+    Category(
+        key="network",
+        label="网络/协议",
+        emoji="🕸️",
+        color="#ffcc66",
+        description="HTTP/DNS/TLS/Proxy、网关、协议栈",
+    ),
+    Category(
+        key="security",
+        label="安全/加密",
+        emoji="🛡️",
+        color="#f85149",
+        description="Auth/OAuth/JWT、密码学与安全工具",
+    ),
+    Category(
+        key="docs",
+        label="文档/学习",
+        emoji="📚",
+        color="#d29922",
+        description="教程/手册/awesome/知识整理（基于仓库描述/话题）",
+    ),
+    Category(
+        key="other",
+        label="未标注/其它",
+        emoji="🗂️",
+        color="#8b949e",
+        description="缺少 topics/description 或无法可靠归类",
     ),
 ]
 
@@ -161,12 +218,23 @@ TOPIC_KEYWORDS = {
         "vector-database",
         "vector-search",
     },
+    "data": {
+        "etl",
+        "elt",
+        "pipeline",
+        "data-pipeline",
+        "data-engineering",
+        "streaming",
+        "kafka",
+        "flink",
+        "spark",
+        "dbt",
+        "airflow",
+        "lakehouse",
+        "analytics-engineering",
+    },
     "systems": {
-        "rust",
-        "cpp",
-        "c++",
-        "c",
-        "zig",
+        # Avoid classifying purely by language; prefer capability/intent words.
         "performance",
         "async",
         "wasm",
@@ -175,20 +243,47 @@ TOPIC_KEYWORDS = {
         "benchmark",
         "profiling",
         "systems-programming",
+        "concurrency",
+        "kernel",
+        "operating-system",
+        "osdev",
+        "memory",
+        "allocator",
     },
-    "tooling": {
+    "cli": {
         "cli",
         "terminal",
-        "editor",
-        "zed",
-        "vscode",
-        "neovim",
+        "shell",
+        "tui",
+        "command-line",
         "tmux",
-        "git",
-        "productivity",
-        "automation",
+        "bash",
+        "zsh",
+        "fish",
+        "powershell",
+    },
+    "editor": {
+        "editor",
+        "neovim",
+        "vim",
+        "vscode",
+        "emacs",
+        "lsp",
+        "treesitter",
+        "plugin",
+        "plugins",
+    },
+    "tooling": {
         "devtools",
         "workflow",
+        "automation",
+        "linter",
+        "formatter",
+        "debugger",
+        "testing",
+        "benchmark",
+        "build",
+        "build-tool",
         "tool",
         "tools",
     },
@@ -215,65 +310,370 @@ TOPIC_KEYWORDS = {
         "ci",
         "cd",
         "github-actions",
-        "observability",
-        "monitoring",
         "distributed-systems",
         "cloud",
         "infra",
         "server",
-        "proxy",
+        "iac",
+        "terraform",
+    },
+    "observability": {
+        "observability",
+        "monitoring",
+        "metrics",
+        "logging",
+        "tracing",
+        "opentelemetry",
+        "otel",
+        "prometheus",
+        "grafana",
+        "jaeger",
+        "loki",
+        "sentry",
+    },
+    "network": {
+        "network",
         "networking",
+        "proxy",
+        "gateway",
+        "http",
+        "https",
+        "dns",
+        "tls",
+        "quic",
+        "grpc",
+        "nginx",
+        "envoy",
+    },
+    "security": {
+        "security",
+        "auth",
+        "authentication",
+        "authorization",
+        "oauth",
+        "openid",
+        "jwt",
+        "crypto",
+        "cryptography",
+        "ssh",
+        "vulnerability",
+    },
+    "docs": {
+        "docs",
+        "documentation",
+        "guide",
+        "tutorial",
+        "handbook",
+        "book",
+        "awesome",
+        "cheatsheet",
+        "notes",
+        "learning",
     },
 }
 
 
-LANG_WEIGHTS = {
-    "Rust": {"systems": 2, "database": 1, "ai": 1},
-    "C": {"systems": 2},
-    "C++": {"systems": 2, "database": 1},
-    "Zig": {"systems": 2},
-    "Go": {"infra": 2, "tooling": 1},
-    "Python": {"ai": 2, "tooling": 1},
-    "TypeScript": {"frontend": 2, "tooling": 1},
-    "JavaScript": {"frontend": 2, "tooling": 1},
-    "Dart": {"frontend": 2},
-    "Swift": {"frontend": 2},
-    "Shell": {"tooling": 2, "infra": 1},
+LANG_FALLBACK_WEIGHTS = {}
+
+
+TEXT_KEYWORDS = {
+    "ai": {
+        "llm",
+        "rag",
+        "openai",
+        "anthropic",
+        "claude",
+        "chatgpt",
+        "agent",
+        "agents",
+        "mcp",
+        "inference",
+        "transformer",
+        "embeddings",
+        "embedding",
+        "vector",
+        "prompt",
+    },
+    "database": {
+        "sql",
+        "database",
+        "olap",
+        "analytics",
+        "query",
+        "query engine",
+        "datafusion",
+        "clickhouse",
+        "duckdb",
+        "postgres",
+        "postgresql",
+        "mysql",
+        "sqlite",
+        "parquet",
+        "arrow",
+        "storage",
+        "index",
+        "lsm",
+        "btree",
+        "rocksdb",
+    },
+    "data": {
+        "etl",
+        "elt",
+        "pipeline",
+        "data pipeline",
+        "data engineering",
+        "streaming",
+        "kafka",
+        "flink",
+        "airflow",
+        "dbt",
+        "lakehouse",
+    },
+    "systems": {
+        "performance",
+        "perf",
+        "async",
+        "runtime",
+        "concurrency",
+        "thread",
+        "benchmark",
+        "profiling",
+        "compiler",
+        "kernel",
+        "operating system",
+        "os",
+        "allocator",
+        "memory",
+        "low-level",
+        "systems programming",
+    },
+    "cli": {
+        "cli",
+        "terminal",
+        "shell",
+        "tmux",
+        "tui",
+        "prompt",
+        "command",
+        "ripgrep",
+        "grep",
+        "fzf",
+        "curl",
+        "wget",
+    },
+    "editor": {
+        "neovim",
+        "vim",
+        "vscode",
+        "zed",
+        "emacs",
+        "lsp",
+        "treesitter",
+        "plugin",
+    },
+    "tooling": {
+        "devtools",
+        "automation",
+        "workflow",
+        "linter",
+        "formatter",
+        "debugger",
+        "build tool",
+        "build system",
+        "packaging",
+        "package manager",
+        "testing",
+        "benchmark",
+    },
+    "frontend": {
+        "frontend",
+        "web",
+        "ui",
+        "ux",
+        "react",
+        "vue",
+        "svelte",
+        "tauri",
+        "electron",
+        "browser",
+        "css",
+        "html",
+        "typescript",
+        "javascript",
+        "wasm",
+        "mobile",
+        "android",
+        "ios",
+        "flutter",
+    },
+    "infra": {
+        "kubernetes",
+        "docker",
+        "devops",
+        "ci",
+        "cd",
+        "github actions",
+        "distributed",
+        "cloud",
+        "server",
+        "terraform",
+        "iac",
+    },
+    "observability": {
+        "observability",
+        "monitoring",
+        "metrics",
+        "logging",
+        "tracing",
+        "opentelemetry",
+        "otel",
+        "prometheus",
+        "grafana",
+        "jaeger",
+        "loki",
+        "sentry",
+    },
+    "network": {
+        "proxy",
+        "network",
+        "dns",
+        "http",
+        "tls",
+        "quic",
+        "grpc",
+        "gateway",
+        "nginx",
+        "envoy",
+        "reverse proxy",
+        "load balancer",
+    },
+    "security": {
+        "security",
+        "auth",
+        "oauth",
+        "openid",
+        "jwt",
+        "crypto",
+        "cryptography",
+        "encryption",
+        "ssh",
+        "vulnerability",
+    },
+    "docs": {
+        "docs",
+        "documentation",
+        "guide",
+        "tutorial",
+        "handbook",
+        "book",
+        "awesome",
+        "cheatsheet",
+        "notes",
+        "learning",
+    },
 }
+
+
+def _contains_kw(text: str, kw: str) -> bool:
+    kw = (kw or "").strip().lower()
+    if not kw:
+        return False
+    t = text or ""
+    if re.fullmatch(r"[a-z0-9]+", kw) and len(kw) <= 3:
+        return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", t) is not None
+    return kw in t
 
 
 def classify_repo(*, name: str, language: str | None, topics: list[str], description: str | None) -> dict:
     name_l = (name or "").lower()
     desc_l = (description or "").lower()
-    topics_l = [t.lower() for t in (topics or [])]
+    topics_l = [str(t or "").strip().lower() for t in (topics or []) if str(t or "").strip()]
+    text = f" {name_l} {desc_l} {' '.join(topics_l)} "
 
-    score = {c.key: 0 for c in CATEGORIES}
+    score = {c.key: 0 for c in CATEGORIES if c.key != "other"}
+    signals = defaultdict(list)
 
+    # Topics: strong deterministic hint (but we avoid pure language tags above).
     for cat_key, kws in TOPIC_KEYWORDS.items():
         for t in topics_l:
             if t in kws:
-                score[cat_key] += 3
+                score[cat_key] += 4
+                signals[cat_key].append(f"topic:{t}")
 
-    if language:
-        for cat_key, weight in LANG_WEIGHTS.get(language, {}).items():
-            score[cat_key] += weight
+    # Description/name: real text signal (primary source for "索引卡").
+    for cat_key, kws in TEXT_KEYWORDS.items():
+        for kw in kws:
+            if _contains_kw(text, kw):
+                score[cat_key] += 2
+                signals[cat_key].append(f"text:{kw}")
 
-    # Lightweight keyword hints from name/description.
-    if re.search(r"\\b(llm|rag|openai|agent|mcp|claude|codex|deepseek|qwen)\\b", name_l + " " + desc_l):
-        score["ai"] += 2
-    if re.search(r"\\b(sql|database|clickhouse|datafusion|olap|arrow)\\b", name_l + " " + desc_l):
-        score["database"] += 2
-    if re.search(r"\\b(cli|terminal|zed|vscode|tool)\\b", name_l + " " + desc_l):
-        score["tooling"] += 1
-    if re.search(r"\\b(tauri|wasm|react|vue|svelte|frontend)\\b", name_l + " " + desc_l):
-        score["frontend"] += 1
-    if re.search(r"\\b(docker|kubernetes|ci|cd|devops|proxy)\\b", name_l + " " + desc_l):
-        score["infra"] += 1
+    if not any(score.values()):
+        return {
+            "primary": "other",
+            "scores": {**score, "other": 0},
+            "tags": [],
+            "signals": ["none:text/topics"],
+            "usedLanguageFallback": False,
+        }
 
     best_key = max(score, key=lambda k: (score[k], k))
     sorted_keys = sorted(score.keys(), key=lambda k: score[k], reverse=True)
     tags = [k for k in sorted_keys if score[k] > 0][:3]
-    return {"primary": best_key, "scores": score, "tags": tags}
+    top_signals = []
+    for k in sorted_keys:
+        if not score[k]:
+            continue
+        top_signals.extend(signals.get(k, [])[:8])
+        if len(top_signals) >= 12:
+            break
+    return {
+        "primary": best_key,
+        "scores": {**score, "other": 0},
+        "tags": tags,
+        "signals": top_signals,
+        "usedLanguageFallback": False,
+    }
+
+
+TOPIC_CANON_ALIASES = {
+    "golang": "go",
+    "cpp": "c++",
+    "c-plus-plus": "c++",
+    "cxx": "c++",
+    "js": "javascript",
+    "ts": "typescript",
+    "llms": "llm",
+}
+
+
+def canon_topic(topic: str) -> str:
+    t = (topic or "").strip().lower()
+    if not t:
+        return ""
+    return TOPIC_CANON_ALIASES.get(t, t)
+
+
+def stable_palette_color(key: str) -> str:
+    # Deterministic color assignment without relying on salted Python hashes.
+    palette = [
+        "#58a6ff",
+        "#bc8cff",
+        "#3fb950",
+        "#ffcc66",
+        "#ff4fd8",
+        "#45f7c7",
+        "#f85149",
+        "#d29922",
+        "#7aa7ff",
+        "#22c55e",
+        "#a855f7",
+        "#0ea5e9",
+        "#fb7185",
+        "#eab308",
+    ]
+    h = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    idx = int(h[:8], 16) % len(palette)
+    return palette[idx]
 
 
 def streak_from_days(days_sorted: list[dict]) -> dict:
@@ -403,6 +803,8 @@ def main():
     stars = []
     for edge in star_edges:
         node = edge["node"]
+        topics_raw = [t["topic"]["name"] for t in (node.get("repositoryTopics") or {}).get("nodes", [])]
+        topics_canon = sorted({canon_topic(t) for t in topics_raw if canon_topic(t)})
         stars.append(
             {
                 "starredAt": edge["starredAt"],
@@ -411,7 +813,8 @@ def main():
                 "stargazerCount": safe_int(node.get("stargazerCount")),
                 "forkCount": safe_int(node.get("forkCount")),
                 "primaryLanguage": (node.get("primaryLanguage") or {}).get("name"),
-                "topics": [t["topic"]["name"] for t in (node.get("repositoryTopics") or {}).get("nodes", [])],
+                "topics": topics_raw,
+                "topicsCanonical": topics_canon,
                 "url": node.get("url") or f"https://github.com/{node['nameWithOwner']}",
             }
         )
@@ -460,14 +863,20 @@ def main():
 
     star_lang_year = Counter([s["primaryLanguage"] for s in stars_year if s.get("primaryLanguage")])
     star_topic_year = Counter()
+    star_topic_canon_year = Counter()
     for s in stars_year:
         for t in s.get("topics", []):
             star_topic_year[t.lower()] += 1
+        for t in s.get("topicsCanonical", []):
+            star_topic_canon_year[t] += 1
 
     star_topic_before = Counter()
+    star_topic_canon_before = Counter()
     for s in stars_before:
         for t in s.get("topics", []):
             star_topic_before[t.lower()] += 1
+        for t in s.get("topicsCanonical", []):
+            star_topic_canon_before[t] += 1
 
     new_topics = []
     rising_topics = []
@@ -489,6 +898,25 @@ def main():
 
     new_topics = new_topics[:12]
     rising_topics = sorted(rising_topics, key=lambda x: (-(x.get("ratio") or 0), -x.get(count_key, 0)))[:12]
+
+    new_topics_canon = []
+    rising_topics_canon = []
+    for topic, cur in star_topic_canon_year.most_common():
+        prev = star_topic_canon_before.get(topic, 0)
+        if prev == 0 and cur >= 3:
+            new_topics_canon.append({"topic": topic, "countBefore": 0, "countInYear": cur, count_key: cur})
+        elif prev > 0 and cur >= max(5, prev * 2):
+            rising_topics_canon.append(
+                {
+                    "topic": topic,
+                    "countBefore": prev,
+                    "countInYear": cur,
+                    "ratio": round(cur / prev, 2) if prev else None,
+                    count_key: cur,
+                }
+            )
+    new_topics_canon = new_topics_canon[:12]
+    rising_topics_canon = sorted(rising_topics_canon, key=lambda x: (-(x.get("ratio") or 0), -x.get(count_key, 0)))[:12]
 
     lang_before = Counter([s["primaryLanguage"] for s in stars_before if s.get("primaryLanguage")])
     new_langs = []
@@ -612,6 +1040,13 @@ def main():
     # Holiday stars (Chinese-focused; fixed-date + known lunar-date mappings).
     # For years we don't have a verified mapping for lunar holidays, we only emit fixed-date ones.
     CN_HOLIDAYS_BY_YEAR = {
+        2023: {
+            "spring_festival": dt.date(2023, 1, 22),
+            "qingming": dt.date(2023, 4, 5),
+            "dragon_boat": dt.date(2023, 6, 22),
+            "qixi": dt.date(2023, 8, 22),
+            "mid_autumn": dt.date(2023, 9, 29),
+        },
         2024: {
             "spring_festival": dt.date(2024, 2, 10),
             "qingming": dt.date(2024, 4, 4),
@@ -688,7 +1123,7 @@ def main():
         cat = classify_repo(
             name=s["nameWithOwner"],
             language=s.get("primaryLanguage"),
-            topics=s.get("topics", []),
+            topics=s.get("topicsCanonical") or s.get("topics") or [],
             description=s.get("description"),
         )
         stars_year_with_cat.append({**s, "category": cat})
@@ -719,12 +1154,16 @@ def main():
 
     radar = {}
     for cat in CATEGORIES:
+        if cat.key == "other":
+            radar[cat.key] = 0
+            continue
         star_score = normalize(category_counts.get(cat.key, 0), max_star_cat)
         pr_score = normalize(pr_category_lines.get(cat.key, 0), max_pr_lines_cat)
         value = (0.65 * star_score) + (0.35 * pr_score)
         radar[cat.key] = int(round(clamp(value, 0.0, 1.0) * 100))
 
-    primary_track = max(radar.items(), key=lambda kv: kv[1])[0] if radar else "systems"
+    radar_main = [(k, v) for k, v in radar.items() if k != "other"]
+    primary_track = max(radar_main, key=lambda kv: kv[1])[0] if radar_main else "systems"
 
     # 90-day events: deep-night push (best-effort)
     events = load(RAW / "events_90d.json") if (RAW / "events_90d.json").exists() else []
@@ -758,27 +1197,126 @@ def main():
             "sampleMessages": [c.get("message", "")[:80] for c in commits[:3]],
         }
 
-    # Identity (avoid over-assertive single label)
-    primary_langs = [lang for lang, _ in Counter([r.get("language") for r in own_repos if r.get("language")]).most_common(5)]
-    top_topics = [t for t, _ in star_topic_year.most_common(8)]
+    # Identity (data-driven, year-specific)
+    # Keep it short but evidence-backed: languages come from stars-in-year; tracks come from radar; OSS highlight from merged PRs.
+    star_langs = [lang for lang, _ in star_lang_year.most_common(6) if lang]
+    lang_line = " / ".join(star_langs[:3]) if star_langs else ""
 
-    identity_lines = []
-    if primary_langs:
-        identity_lines.append(" / ".join(primary_langs[:3]))
-    if "rust" in top_topics:
-        identity_lines.append("Rust 生态重度关注")
-    if "ai" in top_topics or "llm" in top_topics:
-        identity_lines.append("AI 工具链探索")
-    if any(repo["nameWithOwner"].startswith("apache/datafusion") for repo in external_contrib_sorted[:10]) or (oss_award_repo == "apache/datafusion"):
-        identity_lines.append("DataFusion 开源贡献")
+    track_labels = []
+    for key, value in sorted(radar.items(), key=lambda kv: kv[1], reverse=True):
+        if value <= 0:
+            continue
+        cat = CATEGORY_BY_KEY.get(key)
+        if not cat:
+            continue
+        track_labels.append(cat.label)
+        if len(track_labels) >= 2:
+            break
+    track_line = " × ".join(track_labels) if track_labels else ""
 
-    identity = " · ".join(identity_lines[:3]) if identity_lines else "开发者"
+    oss_line = ""
+    if oss_award_repo:
+        short = oss_award_repo.split("/")[-1]
+        lines = safe_int(pr_by_repo.get(oss_award_repo, {}).get("lines", 0), 0)
+        if lines > 0:
+            oss_line = f"PR@{short} {lines}行"
+        else:
+            oss_line = f"PR@{short}"
+
+    identity_parts = [p for p in (lang_line, track_line, oss_line) if p]
+    identity = " · ".join(identity_parts[:3]) if identity_parts else "开发者"
 
     # Meet GitHub duration (as of YEAR-12-31)
     created_date = parse_iso8601(user.get("created_at")).date()
     report_end = dt.date(YEAR, 12, 31)
     days_since = (report_end - created_date).days
     years_approx = round(days_since / 365.2425, 1)
+
+    # Enrich starred repos with classification signals and local timestamps (deterministic).
+    for s in stars_year:
+        cat = classify_repo(
+            name=s["nameWithOwner"],
+            language=s.get("primaryLanguage"),
+            topics=s.get("topicsCanonical") or s.get("topics") or [],
+            description=s.get("description"),
+        )
+        s["track"] = cat["primary"]
+        s["trackTags"] = cat["tags"]
+        s["trackSignals"] = list(cat.get("signals") or [])
+        s["trackUsedLanguageFallback"] = bool(cat.get("usedLanguageFallback"))
+        s["starredAtLocal"] = to_local(s["starredAt"]).isoformat()
+
+    # Dynamic categories (data-driven; derived from starred repos topics/languages).
+    topic_candidates = [t for t, c in star_topic_canon_year.most_common() if c >= 4][:18]
+    lang_candidates_raw = [l for l, c in star_lang_year.most_common() if c >= 6][:8]
+    lang_to_topic = {l: canon_topic(l) for l in lang_candidates_raw if canon_topic(l) in topic_candidates}
+    lang_candidates = [l for l in lang_candidates_raw if l not in lang_to_topic]
+
+    def dynamic_key_for_repo(s: dict) -> str:
+        topics = s.get("topicsCanonical") or []
+        if topics:
+            choices = [t for t in topics if t in topic_candidates]
+            if choices:
+                choices.sort(key=lambda t: (-star_topic_canon_year.get(t, 0), t))
+                return f"t:{choices[0]}"
+        lang = s.get("primaryLanguage")
+        if lang:
+            merged = lang_to_topic.get(lang)
+            if merged:
+                return f"t:{merged}"
+            if lang in lang_candidates:
+                return f"l:{lang}"
+        return "other"
+
+    for s in stars_year:
+        s["dynamicCategoryKey"] = dynamic_key_for_repo(s)
+
+    stars_year_sorted = sorted(
+        stars_year,
+        key=lambda s: (s.get("stargazerCount", 0), s.get("starredAt") or ""),
+        reverse=True,
+    )
+
+    dyn_repo_names = defaultdict(list)
+    for s in stars_year_sorted:
+        dyn_repo_names[s["dynamicCategoryKey"]].append(s["nameWithOwner"])
+
+    dyn_defs = []
+    for t in topic_candidates:
+        key = f"t:{t}"
+        dyn_defs.append(
+            {
+                "key": key,
+                "kind": "topic",
+                "label": f"#{t}",
+                "count": len(dyn_repo_names.get(key, [])),
+                "color": stable_palette_color(key),
+                "repoNames": dyn_repo_names.get(key, []),
+            }
+        )
+    for l in lang_candidates:
+        key = f"l:{l}"
+        dyn_defs.append(
+            {
+                "key": key,
+                "kind": "language",
+                "label": f"语言 · {l}",
+                "count": len(dyn_repo_names.get(key, [])),
+                "color": stable_palette_color(key),
+                "repoNames": dyn_repo_names.get(key, []),
+            }
+        )
+    dyn_defs.append(
+        {
+            "key": "other",
+            "kind": "other",
+            "label": "其他/未标注",
+            "count": len(dyn_repo_names.get("other", [])),
+            "color": stable_palette_color("other"),
+            "repoNames": dyn_repo_names.get("other", []),
+        }
+    )
+    dyn_defs.sort(key=lambda d: (-d["count"], d["key"]))
 
     stars_block = {
         "totalAllTime": len(stars),
@@ -791,12 +1329,19 @@ def main():
                 "forks": safe_int(s.get("forkCount")),
                 "language": s.get("primaryLanguage"),
                 "starredAt": s.get("starredAt"),
+                "starredAtLocal": s.get("starredAtLocal"),
                 "url": s.get("url"),
                 "description": s.get("description"),
                 "topics": list(s.get("topics", []) or []),
+                "topicsCanonical": list(s.get("topicsCanonical", []) or []),
+                "track": s.get("track"),
+                "trackTags": list(s.get("trackTags", []) or []),
+                "trackSignals": list(s.get("trackSignals", []) or []),
+                "trackUsedLanguageFallback": bool(s.get("trackUsedLanguageFallback")),
+                "dynamicCategoryKey": s.get("dynamicCategoryKey"),
             }
             for s in sorted(
-                stars_year,
+                stars_year_sorted,
                 key=lambda s: (s.get("stargazerCount", 0), s.get("starredAt") or ""),
                 reverse=True,
             )
@@ -821,6 +1366,7 @@ def main():
                 "events": [
                     {
                         "starredAt": e.get("starredAt"),
+                        "starredAtLocal": to_local(e.get("starredAt")).isoformat() if e.get("starredAt") else None,
                         "nameWithOwner": e.get("nameWithOwner"),
                         "stars": safe_int(e.get("stars")),
                         "url": e.get("url"),
@@ -833,23 +1379,28 @@ def main():
         "byHourLocalInYear": star_hour_local,
         "topLanguagesInYear": [{"name": k, "count": v} for k, v in star_lang_year.most_common(12)],
         "topTopicsInYear": [{"name": k, "count": v} for k, v in star_topic_year.most_common(24)],
+        "topTopicsCanonicalInYear": [{"name": k, "count": v} for k, v in star_topic_canon_year.most_common(24)],
         "topStarredReposInYear": [
             {
                 "nameWithOwner": s["nameWithOwner"],
                 "stars": s["stargazerCount"],
                 "language": s.get("primaryLanguage"),
                 "starredAt": s["starredAt"],
+                "starredAtLocal": s.get("starredAtLocal"),
                 "url": s["url"],
             }
-            for s in sorted(stars_year, key=lambda s: s["stargazerCount"], reverse=True)[:20]
+            for s in sorted(stars_year_sorted, key=lambda s: s["stargazerCount"], reverse=True)[:20]
         ],
+        "dynamicCategoriesInYear": dyn_defs,
         "firstStarInYear": {
             "starredAt": first_star_year["starredAt"] if first_star_year else None,
+            "starredAtLocal": to_local(first_star_year["starredAt"]).isoformat() if first_star_year else None,
             "repo": first_star_year["nameWithOwner"] if first_star_year else None,
             "url": first_star_year.get("url") if first_star_year else None,
         },
         "latestStarInYear": {
             "starredAt": latest_star_year["starredAt"] if latest_star_year else None,
+            "starredAtLocal": to_local(latest_star_year["starredAt"]).isoformat() if latest_star_year else None,
             "repo": latest_star_year["nameWithOwner"] if latest_star_year else None,
             "url": latest_star_year.get("url") if latest_star_year else None,
         },
@@ -907,6 +1458,8 @@ def main():
                 "rawDir": str(RAW),
                 "notes": [
                     "所有数值来自 gh api 的原始 JSON（仓库内已保存），页面仅做统计与可视化。",
+                    "Star 列表来自当前 starredRepositories；取消 Star 的历史无法从公开 API 追溯，可能低估当年 Star 数。",
+                    "Star 仓库 track 分类为启发式：基于 description/name/topics 的关键词规则生成，并在 reposInYear[].trackSignals 展示命中依据；缺少元数据时会落入「未标注/其它」。",
                     "GitHub Events API 仅保留近 90 天；深夜提交彩蛋为 best-effort。",
                     f"仓库收到的 Stars/Forks 为当前快照，不代表 {YEAR} 新增。",
                 ],
@@ -994,6 +1547,8 @@ def main():
             "discoveries": {
                 "newTopics": new_topics,
                 "risingTopics": rising_topics,
+                "newTopicsCanonical": new_topics_canon,
+                "risingTopicsCanonical": rising_topics_canon,
                 "newLanguages": new_langs,
             },
             "categories": categories_block,
@@ -1004,6 +1559,11 @@ def main():
                     "deletions": pr_del_total,
                     "lines": pr_lines_total,
                 },
+                "mergedPrsList": sorted(
+                    merged_prs,
+                    key=lambda pr: pr.get("mergedAt") or pr.get("createdAt") or "",
+                    reverse=True,
+                ),
                 "ossAward": oss_award,
                 "biggestPr": biggest_pr,
                 "latestPrCreated": latest_pr_created,
